@@ -2,6 +2,34 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+section {
+    padding: 60px 0;
+}
+
+section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section-header {
+    margin-bottom: 70px;
+}
+
+.section-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.section-header p {
+    font-family: 'Droid Serif', sans-serif;
+}
 /* General END */
 
 /* Main nav */
@@ -77,16 +105,47 @@ li {
     border-color: #fff;
 }
 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-brand:focus {
+    color: #0ed8d6;
+    outline: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    outline: 0;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+
 .menu-grey:hover {
-    color: #6a6a6a!important;
+    color: #848484!important;
+}
+.btn-primary:focus,
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem transparent;
+    outline: 0;
 }
 
-#services {
-    margin-top: 50px;
-    height: 100vh;
-    
+.btn-primary:active {
+    background-color: #fff!important;
+    color: #0ed8d6!important;
+    border-color: #fff!important;
+    box-shadow: 0 0 0 0.2rem transparent!important;
+    cursor: pointer!important;
 }
-
-
-
 /* Main header END */
+
+/* Services */
+#services .fa {
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    background-color: #0ed8d6;
+    color: #fff;
+    padding: 15px;
+    font-size: 2.8em;
+}
+
+/* Services END */

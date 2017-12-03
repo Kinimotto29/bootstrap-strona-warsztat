@@ -8,12 +8,14 @@ $(function () {
                 'background-color': 'rgba(14, 216, 214, 0.8)',
                 'color': '#363636;'
             });
-            $('a').addClass('menu-grey');
+            $('.nav-link').addClass('menu-grey');
+            $('.navbar-brand').addClass('menu-grey');
             
             
         } else {
              $('.navbar').css('background-color', 'transparent');
-             $('a').removeClass('menu-grey');
+             $('.nav-link').removeClass('menu-grey');
+             $('.navbar-brand').removeClass('menu-grey');
         }
 
     });
