@@ -371,11 +371,11 @@ section p {
 /* Contact END */
 
 /* Footer */
-#about {
+#main-footer {
     height: 100px;
 }
 
-#about .row {
+#main-footer .row {
     margin-top: 40px;
     display: flex;
     justify-content: center;
