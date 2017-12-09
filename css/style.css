@@ -372,11 +372,11 @@ section p {
 
 /* Footer */
 #main-footer {
-    height: 100px;
+    height: 80px;
 }
 
 #main-footer .row {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
