@@ -381,4 +381,22 @@ section p {
     justify-content: center;
     align-items: center;
 }
+
+#main-footer li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#main-footer a {
+    color: #333;
+    transition: all .2s ease;
+}
+
+#main-footer a:hover {
+    text-decoration: none;
+    color: #0ed8d6;
+}
 /* Footer END */
